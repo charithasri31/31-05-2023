@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("About Variables!")
+        var a=1234567890,s="codegnan",b=false,u,n=null,c=3432565434565542344656575345342456575443n
+        console.log(a,s,u,n,c,b)
+        console.log("About Objects!")
+        var myself={
+            name:"charitha",
+            age:19,
+            gender:"female"
+        }
+        console.log(myself)
+        console.log(myself.gender,myself.age)
+        var x=34,m=8;
+        console.log("x and m values are",x,m,"and sum is ",x+m)
+        console.log(`x and m values are ${x},${m} and sum is ${x+m}`)
+        x+=m;//compound assignment operator
+        console.log(x)
+        var age=5;//< <= > >= == !=
+        if(age<18){
+            console.log("not eligible to vote")
+        }
+        if(age>=18){
+            console.log("eligible to vote")
+        }
+        if(age<18){
+            console.log("not eligible to vote")
+        }
+        else{
+            console.log("eligible to vote")
+        }
+        var g=alert("This is an alert")
+        console.log(g)
+        var p=Number(prompt("Enter a number")),q=Number(prompt("Enter second value"))
+        console.log(typeof p,typeof q)
+        console.log(p+q)
+        var c=confirm("Are u major")
+        console.log(c)
+        console.log("4"=="4")
+    </script>
+</body>
+</html>
